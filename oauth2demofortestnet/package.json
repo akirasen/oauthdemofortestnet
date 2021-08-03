@@ -1,0 +1,21 @@
+{
+  "name": "vueapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.5",
+    "express": "^4.14.0",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "mysql": "^2.12.0",
+    "node-schedule": "^2.0.0",
+    "orm": "^3.1.0"
+  }
+}

@@ -1,0 +1,12 @@
+<!DOCTYPE html><html lang=zh-CN><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>测试</title><script>window.onload = function getUrlParam() {//页面载入时调用
+				var reg = new RegExp("(^|&)" + "code" + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+				var r = window.location.search.substr(1).match(reg); //匹配目标参数
+				 if (r == null){
+					window.location.replace("http://auths-test.dysmt.cn/oauth/authorize?client_id=2e291b9d5eed47faacc2f400d0abc00b&response_type=code&grant_type=authorization_code&scope=snsapi_userinfo&redirect_uri=http://oauthdemo.bashe.cc");
+				}
+				else{
+					console.log('获取code成功')
+				}
+			}
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')</script><link rel=stylesheet href=/static/index.d0f128df.css></head><body><noscript><strong>Please enable JavaScript to continue.</strong></noscript><div id=app></div><script src=/static/js/chunk-vendors.f3c8f711.js></script><script src=/static/js/index.c16e166a.js></script></body></html>
