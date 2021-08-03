@@ -57,7 +57,6 @@ var https = require('https')
                     let resObj = { status: successState, message: '' }
                     let photoUrl = ''
                     let realName = ''
-                    let cardId = ''
                     var theRequest = https.request(options, function(theResponse){
                       theResponse.setEncoding('utf8');
                       theResponse.on('data',function (chunks)  {
